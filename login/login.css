@@ -76,7 +76,7 @@ body {
   .logo {
     border-radius: 40px;
     width: 200px;
-    height: 200px;
+    height: 400px;
     display: flex;
     justify-content: center;
     margin: 0 auto 16px;
