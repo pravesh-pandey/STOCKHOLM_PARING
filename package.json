@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "devDependencies": {
     "nodemon": "^2.0.15"
@@ -6,3 +7,6 @@
     "express": "^4.17.2"
   }
 }
+=======
+{}
+>>>>>>> 6a09d69b8c63deea1540af4663f288b3a4cd5796
