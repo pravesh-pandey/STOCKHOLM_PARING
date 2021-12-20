@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Stockholm Pairing</a>
+          </div>
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#"><i class="fa fa-home"></i> Home</a></li>
+              <li><a href="#Find"><i class="fa fa-search"></i>Find</a></li>
+              <li><a href="#about">About</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Signup  <i class="fa fa-user-plus"></i></a></li>
+              <li><a href="#about">Login  <i class="fa fa-user"></i></a></li>
+            </ul>
+          </div>
+        </div>
+       </nav>
+  <div class="login-card">
+    <h2>Register yourself and let the fun begins</h2>
+    <div class="login-card-content">
+      <div class="header"> 
+      <div class="form">
+        <div class="form-field firstname">
+            <div class="icon">
+              <i class="far fa-user"></i>
+            </div>
+            <input type="text" name = "sfname" placeholder="Firstname">
+          </div>
+          <div class="form-field lastname">
+            <div class="icon">
+              <i class="far fa-user"></i>
+            </div>
+            <input type="text" name = "slname" placeholder="Lastname">
+          </div>
+        <div class="form-field email">
+          <div class="icon">
+            <i class="far fa-user"></i>
+          </div>
+          <input type="email" name = "semail" placeholder="Email id">
+        </div>
+        <div class="form-field username">
+            <div class="icon">
+              <i class="far fa-user"></i>
+            </div>
+            <input type="text" name = "susername" placeholder="Create Username">
+        </div>
+        <button type="submit">
+            get a unique username
+          </button>
+        <div class="form-field password">
+          <div class="icon">
+            <i class="fas fa-lock"></i>
+          </div>
+          <input type="text" name = "spassword" placeholder="Create Password">
+        </div>
+        <div class="form-field age">
+            <div class="icon">
+              <i class="far fa-user"></i>
+            </div>
+            <input type="number" name = "sage" placeholder="age(18+)">
+          </div>
+        <!-- pending google addon-->
+        <button type="submit">
+          Login
+        </button>
+        <div>
+          Don't have an account? <a href="">Sign Up Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="login-card-footer">
+      <a href="">Forgot password?</a>
+    </div>
+  </div>
+    <script src="login.css"></script> 
+</body>
+</html>
