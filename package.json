@@ -1,1 +1,25 @@
-{}
+{
+  "name": "stockholm_paring",
+  "version": "1.1.0",
+  "description": "dating website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivamk28/STOCKHOLM_PARING.git"
+  },
+  "author": "shivam kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivamk28/STOCKHOLM_PARING/issues"
+  },
+  "homepage": "https://github.com/shivamk28/STOCKHOLM_PARING#readme",
+  "dependencies": {
+    "body": "^5.1.0",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "parser": "^0.1.4"
+  }
+}
