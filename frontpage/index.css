@@ -1,10 +1,16 @@
 body {
-    
-    background: url("f1.png");
-    background-size: cover;
-    background-position: center; 
-    background-color: #fc3a5d;
-}
+    background-image: linear-gradient(#fe7763, #fc3a5d);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    justify-content: center;
+  }
 
 body,
 html {
@@ -12,18 +18,18 @@ html {
     width: 100%;
     height: 100%;
     font-family: "Lato";
-    color: #fc3a5d;
+    color: #d61f2e;
 }
 
 h1 {
 	font-weight: 700;
 	font-size: 5em;
-    color: #fc3a5d;
+    color: #d61f2e;
 }
 
 
 .content{
-	padding-top: 10%;
+	padding-top: 5%;
 	text-align: center;
     text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
                  0px 8px 13px rgba(0,0,0,0.1),
