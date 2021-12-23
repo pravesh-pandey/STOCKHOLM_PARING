@@ -69,7 +69,7 @@
         <button type="submit">
           Login
         </button>
-        <div class="g-signin2"></div>
+        <div class="g-signin2" data-onsuccess="onSignIn"></div>
         <div>
           Don't have an account? <a href="">Sign Up Now</a>
         </div>
@@ -82,4 +82,9 @@
     <script src="login.css"></script> 
     <script src="https://apis.google.com/js/platform.js" async defer></script>
 </body>
+<script>
+  function onSignIn(googleUser) {
+    console.log('User is ' + JSON.stringify(googleUser.getBasicProfile()));
+  }
+</script>
 </html>
