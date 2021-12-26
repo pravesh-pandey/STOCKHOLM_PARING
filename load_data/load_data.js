@@ -3,7 +3,7 @@ const fetch = require('node-fetch');
 var randomBinary = require('random-binary');
 const UserName = require('unique-string');
 var randomProfile = require('random-profile-generator');
-const GenerateNewData = () => {
+const GenerateNewData =() => {
     var profile = randomProfile.profile();
     var data = new User();
     data.name = profile.name;
@@ -29,7 +29,7 @@ const GenerateNewData = () => {
     })
         .then(response => response.json())
         .then(data => {
-            console.log('Success:', data);
+            console.log('Success:');
         })
         .catch((error) => {
             console.error('Error:', error);
