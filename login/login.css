@@ -53,8 +53,10 @@ body {
     padding: 32px 0;
   }
   
-  h2 .highlight {
+  .highlight {
     color: #fdc654;
+    font-size: 20px;
+    font-family: sans-serif;
   }
   
   h2 {
@@ -74,14 +76,16 @@ body {
   }
   
   .logo {
-    border-radius: 40px;
     width: 200px;
-    height: 200px;
+    height: 300px;
     display: flex;
     justify-content: center;
     margin: 0 auto 16px;
-    background: rgba(255, 255, 255, 0.1);
     align-items: center;
+  }
+
+  .img {
+    border-radius: 50px;
   }
   
   button {
