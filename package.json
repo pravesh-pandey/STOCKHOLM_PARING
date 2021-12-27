@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "main": "api.js",
   "scripts": {
-    "test": "node api.js",
-    "start": "nodemon api.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
