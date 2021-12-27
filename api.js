@@ -27,7 +27,10 @@ mongoose.connect(process.env.DB_URL,{ autoIndex: false }).then(()=>{
 api.use(express.json());
 api.use(helmet());
 api.use(morgan("common"));
-
+api.use(express.static('frontpage'))
+api.get('/',(req,res)=>{
+  res.sendFile(__dirname+'/frontpage/index.html')
+})
 api.use('/api/user',useroutes);
 api.use('/api/auth',UserRegister);
 
